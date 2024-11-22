@@ -1,0 +1,68 @@
+.dashboard-parent-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+.dashboard-sidebar{
+    background-color: rgb(27 47 60);
+    color: white;
+    padding: 20px;
+    width: 15%;
+}
+
+.dashboard-sidebar-list{
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-sidebar-item{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-container{
+    flex: 1 1 0%;
+    padding: 20px;
+    background-color: rgb(203 219 235 / 58%);
+}
+
+.title{
+    margin-bottom: 20px;;
+}
+
+.event-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card{
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    align-items: baseline;
+}
+
+.register-btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(27 47 60);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.attendees-div{
+    padding: 20px;
+}

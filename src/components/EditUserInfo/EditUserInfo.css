@@ -1,0 +1,26 @@
+.update-user-btn{
+    width: 30%;
+    padding: 10px;
+    background-color: #01274ce6;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.event-field-profile{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.change-password-div{
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    align-items: center;
+}
+
+.change-password-btn{
+    width: 100%;
+}

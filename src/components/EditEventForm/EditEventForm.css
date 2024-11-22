@@ -1,0 +1,17 @@
+.cancel-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #8d3636;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: space-around;
+}
